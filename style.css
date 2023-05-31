@@ -6,12 +6,17 @@
 
 
   body {
-   display:flex;
+    display:flex;
    
   }
 
   .right {
-   margin-left: 20px;
+   margin-left: 40px;
+   margin-top: 80px;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+
   }
 
   .left {
@@ -23,7 +28,7 @@
 
   .backgroundImage {
     height: 100vh;
-    width: 33vW;
+    width: 40vW;
   }
 
   .logo {
@@ -34,7 +39,7 @@
   .logoSection {
     background: black;
     opacity: 0.5;
-    width: 33vW;
+    width: 40vW;
     height: 20vh;
     display:flex;
     align-items: center;
@@ -56,6 +61,37 @@
     color: white;
     font-size: 1.2em;
   }
+
+  fieldset {
+    margin: 30px 0;
+    padding: 20px;
+
+  }
+
+
+  .signUp {
+    margin-top: 20px;
+    background: aqua;
+    padding: 10px;
+    border-radius: 50%;
+  }
+
+  input {
+    border: gray;
+  }
+
+
+  input:invalid {
+    border-color: red;
+  }
+  
+  input:valid {
+    border-color: green;
+  }
+
+  
+
+
   
 
 
