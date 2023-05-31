@@ -80,14 +80,22 @@
     border: gray;
   }
 
+  input:focus {
+    outline: none;
+    border: blue 3px solid;
+    box-shadow: 5px 3px 3px aqua;
+  }
 
-  input:invalid {
+ /* input:invalid {
     border-color: red;
   }
   
   input:valid {
     border-color: green;
-  }
+  } */
+
+
+ 
 
   
 
